@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "citation_number",
+      "displayName": "Citation Number"
+    },
+    {
+      "type": "plate_number", 
+      "displayName": "Plate Number"
+    },
+    {
+      "type": "violation",
+      "displayName": "Violation"
+    },
+    {
+      "type": "issue_date",
+      "displayName": "Issue Date"
+    },
+    {
+      "type": "state",
+      "displayName": "State"
+    },
+    {
+      "type": "zone",
+      "displayName": "Zone"
+    },
+    {
+      "type": "vehicle_make",
+      "displayName": "Vehicle Make"
+    },
+    {
+      "type": "street",
+      "displayName": "Street"
+    },
+    {
+      "type": "officer",
+      "displayName": "Officer"
+    },
+    {
+      "type": "fee_schedule",
+      "displayName": "Fee Schedule"
+    },
+    {
+      "type": "due_date",
+      "displayName": "Pay By Date"
+    },
+    {
+      "type": "fine_amount",
+      "displayName": "Fine Amount"
+    },
+    {
+      "type": "vehicle_color",
+      "displayName": "Vehicle Color"
+    },
+    {
+      "type": "location",
+      "displayName": "Location"
+    },
+    {
+      "type": "time_issued",
+      "displayName": "Time Issued"
+    }
+  ]
+}
