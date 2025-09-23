@@ -4,19 +4,15 @@ import { DocumentUpload } from "@/components/DocumentUpload";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-400 via-orange-300 to-red-300">
-      <div className="container mx-auto px-4 py-8">
-        <header className="text-center mb-12">
+    <div className="min-h-screen bg-gradient-to-br from-blue-400 via-orange-300 to-red-300 flex flex-col items-center justify-center">
+      <div className="container mx-auto px-4 py-8 flex flex-col items-center justify-center min-h-screen">
+        <header className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Ticket Toast
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Upload parking citations or documents to extract structured
-            information using Google Cloud Document AI
-          </p>
         </header>
 
-        <main className="max-w-4xl mx-auto">
+        <main className="w-full max-w-7xl flex-1 flex items-center justify-center">
           <DocumentUpload />
         </main>
       </div>

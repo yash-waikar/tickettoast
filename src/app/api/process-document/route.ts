@@ -37,6 +37,13 @@ interface ProcessedDocument {
 
 export async function POST(request: NextRequest) {
   try {
+    // Add debug logging
+    console.log("=== Document Processing API Called ===");
+    console.log("Environment variables check:");
+    console.log("GOOGLE_CLOUD_PROJECT_ID:", process.env.GOOGLE_CLOUD_PROJECT_ID ? "SET" : "MISSING");
+    console.log("GOOGLE_CLOUD_PROCESSOR_ID:", process.env.GOOGLE_CLOUD_PROCESSOR_ID ? "SET" : "MISSING");
+    console.log("GOOGLE_APPLICATION_CREDENTIALS:", process.env.GOOGLE_APPLICATION_CREDENTIALS ? "SET" : "MISSING");
+    
     const formData = await request.formData();
     const file = formData.get("file") as File;
 
